@@ -1,0 +1,38 @@
+{
+  "cesVersion": "2.11.8",
+  "projectName": "my-expo-app",
+  "packages": [
+    {
+      "name": "nativewindui",
+      "type": "styling",
+      "options": {
+        "selectedComponents": []
+      }
+    },
+    {
+      "name": "expo-router",
+      "type": "navigation",
+      "options": {
+        "type": "stack"
+      }
+    }
+  ],
+  "flags": {
+    "noGit": false,
+    "noInstall": false,
+    "overwrite": false,
+    "importAlias": true,
+    "packageManager": "bun",
+    "eas": false
+  },
+  "packageManager": {
+    "type": "bun",
+    "version": "1.1.17"
+  },
+  "os": {
+    "type": "Darwin",
+    "platform": "darwin",
+    "arch": "arm64",
+    "kernelVersion": "23.4.0"
+  }
+}
