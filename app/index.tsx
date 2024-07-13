@@ -16,7 +16,7 @@ import { useColorScheme } from '~/lib/useColorScheme';
 
 export default function FullWidthListScreen() {
   const { colors } = useColorScheme();
-  console.log(getStickyHeaderIndices(DATA));
+
   return (
     <>
       <Stack.Screen options={{ title: 'Full Width', headerShadowVisible: false }} />
